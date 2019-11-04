@@ -29,11 +29,13 @@
 		<splash src="res/screen/android/splash-land-hdpi.png" density="port-mdpi"/>
 		<splash src="res/screen/android/splash-land-hdpi.png" density="port-xhdpi"/>
 		<splash src="res/screen/android/splash-land-hdpi.png" density="port-xxhdpi"/>
+		<icon src="res/icon.png" />
         <allow-intent href="market:*" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
+		<icon src="res/icon.jpg" />
     </platform>
 	<preference name="SplashScreenDelay" value="2000" />
 </widget>
